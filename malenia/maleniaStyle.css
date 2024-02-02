@@ -1,0 +1,155 @@
+body {
+    background-image: url("images/Erdtree.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding:10,5,10,5;
+}
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1115px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+@font-face {
+    font-family: "eldenring";
+    src: url("Fonts/eldenRingFont/Mantinia Regular.otf") format('woff2');
+}
+.malenia{
+    height: 500px;;
+}
+
+#maleniaInformation {
+    width:100px;
+    height: 100px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    width:700px;
+}
+
+#header img {
+    width: 120px;
+}
+
+#header h1 {
+    color:#AB966F;
+    font-family: "eldenring";
+}
+
+#header hr {
+    border-color: #AB966F;
+    border-radius: 12%;
+}
+
+#maleniaShow {
+    width: 350px;
+    height: 350px;;
+    position: relative;
+    top:40px;
+}
+
+#maleniaShow #1 {
+    width: 350px;
+    margin-left:20px;
+}
+#maleniaShow #2{
+        width: 350px;
+    margin-left:20px;
+}
+#maleniaDescription{
+    width:100px;
+}
+#maleniaDescription h4 {
+    color: #AB966F;
+    margin-left: 400px;
+    font-family: Tahoma;
+    width: 910px;
+    border: 2px solid rgba(171, 150, 111, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius:5%;
+    margin-left:20px;
+    padding: 10px;
+}
+
+#howToFindMalenia {
+    display: grid;
+    grid-template-columns: repeat(1,50px);
+    height: 200px;
+}
+
+#howToFindMalenia #howto {
+    color: #AB966F;
+    width: 310px;
+    text-align:center;
+    left:340px; 
+    position:relative;
+    bottom:410px;
+}
+#drops{
+    color: #AB966F;
+    width: 310px;
+    text-align:center;
+    position: relative;
+    bottom:520px;
+    left:330px;
+}
+#imagerune{
+    width: 50px;
+    position: relative;
+    bottom:460px;
+    left:300px;
+}
+#howToImage{
+    width: 50px;
+    position: relative;
+    bottom:350px;
+    left:300px;
+}
+#dropsh4{
+    position: relative;
+    bottom:550px;
+    left:310px;
+}
+#howToFindMalenia img {
+    width: 50px;
+    position:relative;
+}
+#maleniaFindH4{
+    left:310px;
+    bottom:440px;
+}
+#howToFindMalenia h4 {
+    border:1px solid #AB966F;
+    padding: 10px;
+    border-radius:3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #AB966F;
+    font-family: Tahoma; /* Added font-family for consistency */
+    width:560px;
+    height: 100px;
+    text-align: center;
+    position:relative;
+}
+#maleniaStrat{
+    color:#AB966F;
+    margin-left:20px;
+    width:910px;
+}
+#maleniaStrat h2{
+    font-family:"eldenring";
+}
+#maleniaStrat h4{
+    font-family:Tahoma;
+    border: 1px solid #AB966F;
+    padding:10px;
+    border-radius:3%;
+    background-color: rgba(0, 0, 0, 0.5);
+}

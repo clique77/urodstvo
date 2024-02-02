@@ -1,0 +1,85 @@
+body{
+    background-color: #2A2A2A;
+    background-image: url("images/Erdtree.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change opacity */
+    z-index: -1;
+}
+@font-face{
+    font-family: "elden";
+    src: url("Fonts/eldenRingFont/Mantinia\ Regular.otf") format('woff2');
+}
+.bosses{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+#header h1{
+    color:#AB966F;
+    font-family: "elden";;
+}
+/*Malenia Design*/
+#malenia{
+    transition: 0.3s;
+        width: 320px;
+        display: grid;
+}
+#malenia img{
+    width: 200px;
+    border-radius:12%;
+    transition:0.2s;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition:0.3s box-shadow 0.3 ease;
+}
+#maleniaName{
+    color:#AB966F;
+    margin-left:17px;
+    transition: font-size 0.3s;
+    font-size: 12px; 
+    font-family:"elden";
+}
+#malenia:hover #maleniaName{
+    font-size: 13px;
+    transform: scale(1)
+}
+#malenia img:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px #AB966F;
+}
+/*Malenia Design*/
+/*Mogh Design*/
+#mogh{
+    width: 500px;
+}
+#mogh img{
+    width: 200px;
+    height: 120px;
+    transition: 0.3s;
+    margin-top:21px;
+    border-radius:12%;
+    transition:0.3s box-shadow 0.3 ease;
+}
+#mogh img:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px #AB966F;
+}
+#mogh:hover #moghName{
+    font-size: 13px;
+}
+#moghName{
+    color:#AB966F;
+    font-family:"elden";
+    transition: font-size 0.3s;
+    font-size:12px;
+    margin-left:20px;
+}
+/*Mogh Design*/
